@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+body
+{
+	margin: 0;
+}
+
+div.top
+{
+	width: 98%;	
+	float: left;
+	background-color: aquamarine;
+	padding: 1%;
+}
+
+/*div.top div.name
+{
+	background-color: blue;
+	width: 60%;
+	text-align: center;
+}*/
+
+div.top:hover
+{
+	background-color: cadetblue;
+}
+
+div.top img
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color:darkblue;
+}
+
+div.top div a
+{
+	float: right;
+	background-color: black;
+	color: white;
+	padding:10px;
+	text-decoration: none;
+}
+
+div.top div a:hover
+{
+	color: deeppink;
+}
+
+div.banner img
+{
+	width: 100%;
+	height: 300px;
+}
+
+div.product
+{
+	width: 100%;
+	float: left;
+	background-color: white;
+}
+
+div.product div
+{
+	width: 23%;
+	height: 330px;
+	padding: 0.5%;
+	margin: 0.5%;
+	float: left;
+	text-align: center;
+	text-decoration: underline;
+	background-color:burlywood; 
+}
+
+/*div.product div:hover
+{
+	background-color: cadetblue;
+}*/
+
+div.product div div.img
+{
+	width: 100%;
+	height: 300px;
+	padding: 0.5%;
+	margin: 0.5%;
+	float:left;	
+}
+
+div.product div div.img img
+{
+	width: 280px;
+	padding-left:3%;
+	height: 300px;
+	float: left;	
+}
+
+/*div.product div img:hover
+{
+	transform: scale(1.2);	
+}*/
+
+div.bottom
+{
+	background-color: black;
+	width: 100%;
+	color: whitesmoke;
+	text-align: center;
+	/*font-size: 30px;*/
+}
+div.menu
+{
+	width: 100%;
+	background-color:darkblue;
+	float: left;
+}
+
+div.menu ul li
+{
+	display: inline-block;
+	padding: 10px;
+}
+
+div.menu ul li a
+{
+	color:papayawhip;
+}
+
+div.menu ul li a:hover
+{
+	color:chartreuse;
+}
+
+div div.form
+{
+	background-color:#7EBEBE;
+	padding:30px;	
+}
+
+div.product div:hover
+{
+	background-color:#366;	
+}
+
+div.button a
+{
+	color: teal;
+}
+
+div.button a:hover
+{
+	color:darkmagenta;
+}
+
+div div.button
+{
+	/*background-color: black;   ##Doubt## */   
+	width:14%;
+	height: 10px;
+	text-align: center;
+	
+}
+
+
+
